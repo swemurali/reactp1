@@ -1,0 +1,59 @@
+body {
+  font-family:Georgia, Times, 'Times New Roman', serif;
+  font-weight: bolder;
+  background-image: url("src/assets/image1.jpg");
+  background-size: cover;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  height: 100vh;
+}
+
+.app {
+  text-align: left;
+}
+
+.card {
+  background: rgba(4, 38, 38, 0.17);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.time {
+  font-size: 48px;
+  margin: 20px 0;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button.start {
+  background-color: #06701f8c;
+}
+
+button.stop {
+  background-color: #cb1325b2;
+}
+
+button.reset {
+  background-color: #b8a057ae;
+}
+
+button:disabled {
+  background-color: #7a696983;
+  cursor: not-allowed;
+}
