@@ -1,7 +1,7 @@
 body {
   font-family:Georgia, Times, 'Times New Roman', serif;
   font-weight: bolder;
-  background-image: url("image1.jpg");
+  background-image: url("/image1.jpg");
   background-size: cover;
   margin: 0;
   display: flex;
